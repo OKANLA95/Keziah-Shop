@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import LoginFooter from '../components/LoginFooter';
-import Header from '../components/loginHeader';
+import Header from '../components/LoginHeader';
 import Footer from '../components/Footer';
 import {
   createUserWithEmailAndPassword,
