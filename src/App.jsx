@@ -8,7 +8,7 @@ import Dashboard from './pages/PublicDashboard';
 import About from './pages/About';
 import ContactSupport from './pages/ContactSupport';
 import ManagerDashboard from './pages/dashboards/ManagerDashboard';
-import SalesDashboard from './pages/Dashboards/SalesDashboard';
+import SalesDashboard from './pages/dashboards/SalesDashboard';
 import FinanceDashboard from './pages/dashboards/FinanceDashboard';
 import AssignRole from './pages/AssignRole';
 import Profile from './pages/Profile';
