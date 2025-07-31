@@ -1,0 +1,67 @@
+.shop-setup-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shop-setup-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2a2a2a;
+  font-size: 24px;
+}
+
+.shop-setup-form .form-group {
+  margin-bottom: 20px;
+}
+
+.shop-setup-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.shop-setup-form input[type="text"],
+.shop-setup-form input[type="file"],
+.shop-setup-form select,
+.shop-setup-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border 0.3s ease;
+}
+
+.shop-setup-form input:focus,
+.shop-setup-form select:focus,
+.shop-setup-form textarea:focus {
+  border-color: #0077ff;
+  outline: none;
+}
+
+.shop-setup-form textarea {
+  resize: vertical;
+}
+
+.shop-setup-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0077ff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-setup-form button:hover {
+  background-color: #005fcc;
+}

@@ -1,0 +1,69 @@
+/* ViewReportsDark.css */
+
+.view-reports-container.dark-mode {
+  background-color: #1e1e2f;
+  color: #e0e0e0;
+}
+
+.view-reports-container.dark-mode h2 {
+  color: #a78bfa;
+}
+
+.view-reports-container.dark-mode .filter-section,
+.view-reports-container.dark-mode .export-buttons {
+  background: #2c2c3e;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.view-reports-container.dark-mode .filter-section label {
+  color: #cfcaff;
+}
+
+.view-reports-container.dark-mode input[type="text"] {
+  background-color: #3a3a4f;
+  border: 1px solid #666;
+  color: #fff;
+}
+
+.view-reports-container.dark-mode .react-datepicker__input-container input {
+  background-color: #3a3a4f;
+  color: #fff;
+  border: 1px solid #666;
+}
+
+.view-reports-container.dark-mode .export-buttons button {
+  background-color: #a78bfa;
+  color: #1e1e2f;
+}
+
+.view-reports-container.dark-mode .export-buttons button:hover {
+  background-color: #c4b5fd;
+}
+
+.view-reports-container.dark-mode ul li {
+  background-color: #5c1a1a;
+  border-left-color: #ff4d4d;
+  color: #ffcfcf;
+}
+
+.view-reports-container.dark-mode table {
+  background-color: #2a2a3a;
+  color: #f0f0f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.view-reports-container.dark-mode table thead {
+  background-color: #4c1d95;
+}
+
+.view-reports-container.dark-mode table tr:nth-child(even) {
+  background-color: #33334d;
+}
+
+.view-reports-container.dark-mode table th,
+.view-reports-container.dark-mode table td {
+  border-color: #444;
+}
