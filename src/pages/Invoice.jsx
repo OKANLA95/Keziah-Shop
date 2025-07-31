@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { db } from "../firebase.js";
 import { doc, getDoc, deleteDoc, updateDoc } from 'firebase/firestore';
 import jsPDF from 'jspdf';
-import './invoice.css';
+import './Invoice.css';
 
 function Invoice() {
   const { id } = useParams();
